@@ -1,0 +1,22 @@
+# Arquivos temporários e resultados de revisão visual
+tmp/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+
+# Registros internos e capturas do Trello
+output/sprint3/*.jpg
+output/sprint3/trello_*.json
+output/private/
+
+# Scripts históricos de revisão; não representam o fluxo n8n
+output/sprint3/atualizar_prazo.py
+output/sprint3/revisar_equipe.py
+output/sprint3/gerar_pdf.py
+
+# PDFs internos podem conter links e QR codes do quadro privado
+output/pdf/*.pdf
+!output/pdf/fluxogramas.pdf
